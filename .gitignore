@@ -71,3 +71,32 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+
+# Local development
+*.env
+*.dev
+.DS_Store
+.idea
+typings
+public/app/js/*
+# Docker
+Dockerfile
+docker-compose.yml
+node_modules
+client/# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.project
+.sublime-project
+.tern-project
+.jshintrc
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+*.iml
