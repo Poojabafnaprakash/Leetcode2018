@@ -72,7 +72,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-
 # Local development
 *.env
 *.dev
@@ -100,3 +99,6 @@ pids
 *.seed
 *.pid.lock
 *.iml
+
+.idea/*
+
